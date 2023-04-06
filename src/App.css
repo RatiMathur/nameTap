@@ -1,12 +1,59 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color: #282c34;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+.bodydisplay{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+}
+.searchBox{
+  margin-top: 5%;
+  width: 400px;
+  height: 50px;
+  border-width: 0;
+  border-radius: 50px;
+  background-color:rgb(178, 152, 204); 
+  color: white;
+  font-size: medium;
+  padding: 5%;
 }
 
+.butn{
+  border-width: 0;
+  border-radius: 50px;
+  margin-top: 20%;
+  height: 50px;
+  width: 100px;
+  background-color: rebeccapurple;
+  padding: 5%;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  
+}
+
+.namecard{
+background-color: rgb(117, 117, 218);
+margin: 10px 15px;
+min-width: 75px;
+width: 200px;
+padding: 10px 20px;
+border-radius: 20px;
+box-shadow: 0px 0px 5px rgb(41, 41, 59);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +61,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
